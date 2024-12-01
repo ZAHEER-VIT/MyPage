@@ -2503,7 +2503,7 @@ footer .k1 p{
 
 /*media code for smaller screens*/
 
-@media only screen and (min-width:300px) and (max-width:630px){
+@media only screen and (min-width:300px) and (max-width:1000px){
 
 
 .name{
@@ -2571,20 +2571,20 @@ margin-left:30%;
 .name:before{
     content:"My";
     color:rgb(0, 85, 255);
-    margin-top:-1%;
-    margin-left: -2%;
-    font-size: 3rem;
+    margin-top:1%;
+    margin-left: 10%;
+    font-size: 6rem;
     font-weight:bold;
     pointer-events: none;
     }
 .name h1{
     width:97%;
-    margin-left:5%;
-    font-size: 3rem;
+    margin-left:4%;
+    font-size: 6rem;
     animation:so;
 animation-duration: 3s;
 transition:2s;
-margin-top:2%;
+margin-top:3%;
 }
 @keyframes so{
 from{
@@ -2624,13 +2624,13 @@ transform: scale(0.5,0.5);
 
  .links45{
 margin-left:3%;
-display: grid;
+display: flex;
 flex-direction: row;
-grid-template-columns: repeat(2,0.1fr);
-margin-bottom: 30%;;
+margin-bottom: 10%;
+margin-left:5%;
  }
  .three,.four,.five{
-    font-size:20px;
+    font-size:3rem;
  }
  .img img.o:hover{
     margin-left:4%;
@@ -2638,7 +2638,9 @@ margin-bottom: 30%;;
     transform:scale(1,1);
 }
 .img img.o{
-    margin-left:4%;
+    height:60rem;
+    margin-left:5%;
+    margin-top:0%;
     width:90%;
     transform:scale(0.9,0.9);
 }
@@ -2686,9 +2688,9 @@ margin-left:50%;
 width:50%;
 } */
 h1.services {
-    font-size:3rem;
+    font-size:5rem;
     margin-bottom:2%;
-    margin-left:-10%;
+    margin-left:14%;
 }
 .content{
   transform:scale(0.7,0.7);
@@ -2769,38 +2771,51 @@ to{
 .services{
     margin-left:2%;
     font-size:3rem;
-    animation:servic;
+    animation:service;
     animation-duration:2s;
     transition:2s;
     animation-timeline:view();
 }
 @keyframes service{
     from{
-        margin-left:-100%;
+        margin-left:-150%;
     }
     to{
-        margin-left:10%;
+        margin-left:2%;
     }
 }
 .content{
     display:flex;
+    margin-left:18%;
     flex-direction:column;
 }
-.webdesign{
-    margin-left:-84%;
+.web{
+    margin-top:85%;
+}
+.webdesign:hover{
+    margin-left:0%;
+    margin-top:25%;
     animation:webdesign;
+    transform:scale(2.4,2.4);
+}
+.webdesign{
+    margin-left:0%;
+    margin-top:15%;
+    animation:webdesign;
+    margin-bottom:95%;
+    transform:scale(2.2,2.2);
 }
 #projects{
     display:flex;
     flex-direction:column;
+    margin-top:80%;
 }
-.subtitle{
-    margin-top:120%;
-    margin-left:20%;
-    font:2rem;
-    font-size:3rem;
-    animation:se;
+#projects:hover{
+    display:flex;
+    flex-direction:column;
+    margin-top:80%;
 }
+
 .myservices{
     margin-left:0%;
     animation:service1;
@@ -2815,11 +2830,19 @@ to{
 .project{
     display:flex;
     flex-direction:column;
-    transform:scale(0.5,0.6\5);
+    transform:scale(0.5,0.5);
     margin-left:-3%;
 }
-.vop{
-    margin-left:-20%;
+.vop.n{
+    animation:slide8;
+    margin-left:20%;
+    transform:scale(2,2);
+    margin-bottom:100%;
+}
+.vop.n:hover{
+    animation:slide8;
+    margin-left:20%;
+    transform:scale(1.9,1.9);
 }
 .p{
     font-size:4rem;
@@ -2827,22 +2850,26 @@ to{
 
 #fi,#i{
     box-sizing: border-box;
-    font-size: 2rem;
+    font-size: 5rem;
     margin-left:4%;;
     width:100%;
-}
 
+}
+.hi{
+    margin-top:10%;
+}
 .intro p{
     width:60%;
     animation: slide9;
     animation-duration: 3s;
-    font-size:21px;
+    font-size:3rem;
     margin-left:20%;
+    margin-top:5%;
 }
 #fi:after{
     content:"ZAHEER";
     letter-spacing:1px;
-    font-size: 36px;
+    font-size: 5rem;
     color:rgb(0,85,255);
     margin-right: 6%;
     animation:text;
@@ -2872,6 +2899,10 @@ to{
     padding:0px;
     margin-left:-1%;
     width:12rem;
+    margin-top:20%;
+}
+#resume{
+    margin-top:10%;
 }
 .response{
     margin-left:2%;
@@ -2898,6 +2929,32 @@ opacity:5%;
     margin-top:130%;
 margin-left:10%;
 
+    margin-top:110%;
+    margin-left:25%;
+    font:2rem;
+    font-size:5rem;
+    animation:se;
+animation-duration: 2s;
+animation-timeline:view();
+}
+.subtitle:hover{
+    margin-top:130%;
+margin-left:10%;
+    margin-top:110%;
+    margin-left:25%;
+    font:2rem;
+    font-size:5rem;
+    animation:se;
+animation-duration: 2s;
+animation-timeline:view();
+}
+@keyframes se{
+    from{
+        margin-left:90%
+    }
+    to{
+        margin-left:25%;
+    }
 }
 .layer p{
       font-size:3rem;  
@@ -2909,10 +2966,11 @@ margin-left:10%;
   
 }
 .number12,.mail{
-    transform: scaleX(0.7,0.7);
+    transform: scale(1.5,1.5);
     display:flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    margin-left:30%;
+margin-bottom:25%;
 }
 #resume{
     width:110%;
@@ -2920,9 +2978,11 @@ margin-left:10%;
 }
 #submit1{
     transform:scale(0.6,0.6);
+    margin-left:25%;
+   transform:scale(1.2,1.2);
 }
 #contact .p{
-    font-size: 3rem;;
+    font-size: 5rem;;
 }
 #contact{
     margin-top:470%;
@@ -2932,15 +2992,23 @@ footer{
     box-sizing:border-box;
 }
 .k1 p{
-    margin-left:5%;
+    margin-left:9%;
+    font-size:2.5rem;
 }
 .k p{
    
-    font-size: 1rem;
-    margin-top:1%;
+    font-size: 3rem;
+ margin-top:5%;
+}
+.quote{
+    display:flex;
+    flex-direction:column;
 }
 .love{
-    font-size: 2rem;
+    font-size: 5rem;
+    display:none;
+    margin-top:0%;
+    margin-left:40%;
 }
 textarea{
     color:white;
@@ -2982,13 +3050,22 @@ nav ul{
     top:50px;
     margin-right:7%;
     right:15px;
-font-size: 36px;
+font-size: 70px;
 margin-bottom:5%;
 }
 .project{
     transform:scale(0.7,0.7);
     width:100%;
 }
+.b,.c,.d,.e,.e,.f{
+    font-size:3rem;
+}
+p.response{
+    margin-left:10%;
+    font-size:2rem;
+}
+
+
 
 
 }
