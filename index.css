@@ -3072,7 +3072,7 @@ p.response{
 
 
 /*code for 380px to 767px;*/
-@media only screen and (min-width:390px) {
+@media only screen and (min-width:390px) and (max-width:766px){
 .logo{
     width:100%;
 
