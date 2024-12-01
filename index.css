@@ -2503,7 +2503,7 @@ footer .k1 p{
 
 /*media code for smaller screens*/
 
-@media only screen and (min-width:300px) and (max-width:1000px){
+@media only screen and (min-width:600px) and (max-width:1000px){
 
 
 .name{
