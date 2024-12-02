@@ -3211,6 +3211,7 @@ margin-top:30%;
         margin-top: 145%;;
         flex-direction: column;
         margin-left:55%;
+        margin-bottom: 220%;;
     }
     #bio,.d{
     margin-left:20%;
@@ -3219,7 +3220,7 @@ margin-top:30%;
         margin-left:10%;
     }
     .bottom{
-        margin-top:149%;
+        margin-top:169%;
      width:220%;
     margin-left: 0%;;
     }
@@ -3244,7 +3245,7 @@ margin-top:30%;
     transform: scale(2,2);
     margin-top:40%;
     margin-left:70%;
-    margin-bottom:80%;
+    margin-bottom:150%;
     }
     .webdesign{
         margin-left:80%;
@@ -3267,7 +3268,8 @@ margin-top:30%;
     .subtitle{
         transform:scale(2,2);
         margin-left: 90%;
-        width:100%;
+        margin-top: 690%;;
+        width:120%;
         animation: slide53;
         animation-timeline:view();
         animation-duration: 2s;
@@ -3277,7 +3279,7 @@ margin-top:30%;
     .project{
         display: flex;
         flex-direction: column;
-        margin-top:330%;
+        margin-top:380%;
         margin-left:100%;
         transform:scale(2.2,2.2);
     }
@@ -3296,7 +3298,7 @@ margin-top:30%;
         box-sizing: border-box;
     }
     #contact{
-    margin-top:1200%;
+    margin-top:1500%;
     margin-left:100%;
     
     transform:scale(2,2);
@@ -3314,6 +3316,9 @@ margin-top:30%;
       
     
     }
+    .p{
+     width:120%;
+    }
     .y{
         margin-bottom:25%;
     }
@@ -3323,8 +3328,8 @@ margin-top:30%;
         width:120%;
     }
     .form{
-        width:159%;
-        margin-left:-23%;
+        width:190%;
+        margin-left:-29%;
     }
     input,textarea{
         margin:2%;
@@ -3335,8 +3340,8 @@ margin-top:30%;
         font-size:1.7rem;
     }
     .footer{
-        width:180%;
-        margin-top:280%;
+        width:200%;
+        margin-top:300%;
     transform:scale(2,2);
     margin-left:70%;
     }
