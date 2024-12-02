@@ -3072,283 +3072,294 @@ p.response{
 
 /* 
 /*code for 380px to 767px;*/
-@media only  screen and (min-width:280px) and (max-width:766px) {
-.logo{
-    width:100%;
+@media only  screen and (min-width:200px) and (max-width:499px) {
 
-}
-.name {
-    margin-top:10%;
-    margin-left:20%;
-}
-.name h1{
-    font-size:12rem;;
-}
-
-
-.name:before{
-    content:"My";
-    color:rgb(0, 85, 255);
-    margin-top:1%;
-    margin-left: 25%;
-    font-size: 12rem;
-    font-weight:bold;
-    pointer-events: none;
+    .logo{
+        width:100%;
+    
     }
-    #fi:after{
-        content:"ZAHEER";
-        letter-spacing:1px;
-        font-size: 8rem;
-        color:rgb(0,85,255);
-        margin-left: 6%;
-        animation:text;
-        text-shadow:1px 1px 3px rgb(79, 79, 79);
-        animation-duration: 5s;
+    #aboutme{
+        margin-bottom:185%;
+    }
+    .name {
+        margin-top:10%;
+        margin-left:10%;
+    }
+
+    .name h1{
+        font-size:12rem;
+        margin-left:10%;
+    }
+    .bottom{
+        margin-top:200%;
+    }
+    .ul li{
+        display:none;
+    }
+    .d{
+        justify-content: flex-start;
+        margin-left: 0%;
+    }
+.li{
+        display: flex;
+        flex-direction:row;
+    }
+    .name:before{
+        content:"My";
+        color:rgb(0, 85, 255);
+        margin-top:1%;
+        margin-left: 10%;
+        font-size: 12rem;
+        font-weight:bold;
+        pointer-events: none;
         }
-.logo,.ul{
-    display:flex;
-    flex-direction:column;
-}
-.me{
-    display:flex;
-    flex-direction:column;
-}
-.intro p{
-    font-size:6rem;
-    margin-left:45%;
-    width:200%;
-
-}
-.intro{
-    margin-left:35%;
-}
-#fi,#i{
-    font-size:7rem;
-    width:100%;
-
-   
-}
-.three,.four,.five{
-   transform: scale(3,3);
-   animation:slide12;
-   animation-duration: 2s;
-   transition: 2s;
-
-}
-#aboutme img{
-    margin-left:25%;
-}
-.links45{
-    display:flex;
-    flex-direction: row;
-    column-gap:80%;;
-    margin-left:20%;
-    margin-top:30%;
-    margin-bottom:80%;
-}
-@keyframes slide12{
-    from{
-        margin-left:100%;
-        transform: scale(3,3);
+        #fi:after{
+            content:"ZAHEER";
+            letter-spacing:1px;
+            font-size: 8rem;
+            color:rgb(0,85,255);
+            margin-left: 6%;
+            animation:text;
+            text-shadow:1px 1px 3px rgb(79, 79, 79);
+            animation-duration: 5s;
+            }
+    .logo,.ul{
+        display:flex;
+        flex-direction:column;
     }
-    to{
+   #myservices{
+margin-top:30%;
+
+    }
+  
+    #content{
+        margin-top:80%;
+      
+        margin-bottom:120%;
+    }
+    .me{
+        display:flex;
+        flex-direction:column;
+    }
+    .intro p{
+        font-size:5rem;
+        margin-left:45%;
+        width:300%;
+    
+    }
+    .intro{
+        margin-left:35%;
+    }
+    #fi{
+        font-size:7rem;
+        width:150%;
+           
+    }
+    #i{
+        font-size:7rem;
+        width:200%;
+        margin-bottom: 10%;;
+    }
+    #fi{
+        margin-bottom:1%;
+    }
+    .three,.four,.five{
+       transform: scale(3,3);
+       animation:slide12;
+       animation-duration: 2s;
+       transition: 2s;
+    
+    }
+    #aboutme img{
         margin-left:30%;
-        transform: scale(3,3);
     }
-}
-
-.img .o{
-    display:flex;
-    margin-top:90%;
-    margin-left:100%;
+    .links45{
+        display:flex;
+        flex-direction: row;
+        column-gap:110%;;
+        margin-left:30%;
+        margin-top:50%;
+        margin-bottom:80%;
+    }
+    @keyframes slide12{
+        from{
+            margin-left:100%;
+            transform: scale(3,3);
+        }
+        to{
+            margin-left:30%;
+            transform: scale(3,3);
+        }
+    }
+    
+    .img .o{
+        display:flex;
+        margin-top:90%;
+        margin-left:120%;
+        transform: scale(2,2);
+    }
+    .top{
+        margin-top:170%;
+        width:320%;
+    
+    }
+    
+    #aboutme{
+        transform:scale(2,2);
+        display:flex;
+        width:100%;
+        margin-top: 145%;;
+        flex-direction: column;
+        margin-left:55%;
+    }
+    #bio,.d{
+    margin-left:20%;
+    }
+    .explore{
+        margin-left:10%;
+    }
+    .bottom{
+        margin-top:149%;
+     width:220%;
+    margin-left: 0%;;
+    }
+    
+    h1.services{
+        font-size:10rem;
+        width:200%;
+    }
+    
+    .content{
+        display:flex;
+        width:100%;
+        margin-top:10%;
+        margin-left:30%;
+        flex-direction: column;
+        row-gap:30% ;
+    }
+    #projects,#projects:hover{
+        margin-top:560%;
+    }
+    .webdesign,.webdesign:hover{
     transform: scale(2,2);
-}
-.top{
-    margin-top:170%;
-    width:320%;
-
-}
-
-#aboutme{
-    transform:scale(2,2);
-    display:flex;
-    width:150%;
-    margin-top: 145%;;
-    flex-direction: column;
-    margin-left:55%;
-}
-#bio,.d{
-margin-left:20%;
-}
-.explore{
-    margin-left:10%;
-}
-.bottom{
-    margin-top:149%;
- width:220%;
-margin-left: 0%;;
-}
-
-h1.services{
-    font-size:10rem;
-    width:200%;
-}
-
-.content{
-    display:flex;
-    width:100%;
-    margin-top:10%;
-    margin-left:30%;
-    flex-direction: column;
-    row-gap:30% ;
-}
-#projects,#projects:hover{
-    margin-top:400%;
-}
-.webdesign,.webdesign:hover{
-transform: scale(2,2);
-margin-top:40%;
-margin-left:70%;
-margin-bottom:80%;
-}
-.webdesign{
-    animation: slide23;
-    animation-timeline:view();
-    animation-duration: 2s;
-    transition: 2s;;
-}
-@keyframes slide23{
-    from{
-        transform:scaleX(1,1);
+    margin-top:40%;
+    margin-left:70%;
+    margin-bottom:80%;
     }
-    to{
-        transform:scaleX(2,2);
+    .webdesign{
+        margin-left:80%;
+        animation: slide23;
+        animation-timeline:view();
+        animation-duration: 2s;
+        transition: 2s;;
     }
-}
-.web{
-    margin-bottom:20%;   
-}
-.subtitle{
-    transform:scale(2,2);
-    margin-left: 90%;
-    width:100%;
-    animation: slide53;
-    animation-timeline:view();
-    animation-duration: 2s;
-    transition: 2s;;
-}
-.project{
-    display: flex;
-    flex-direction: column;
-    margin-top:250%;
+    @keyframes slide23{
+        from{
+            transform:scaleX(1,1);
+        }
+        to{
+            transform:scaleX(2,2);
+        }
+    }
+    .web{
+        margin-bottom:20%;   
+    }
+    .subtitle{
+        transform:scale(2,2);
+        margin-left: 90%;
+        width:100%;
+        animation: slide53;
+        animation-timeline:view();
+        animation-duration: 2s;
+        transition: 2s;
+        margin-bottom:25%;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        margin-top:330%;
+        margin-left:100%;
+        transform:scale(2.2,2.2);
+    }
+    .li{
+        display: none;
+    }
+    .klu{
+        margin-top:120%;
+    }
+    .n{
+        margin-top:20%;
+    
+    }
+    .fa-external-link{
+        margin-top:50%;
+        box-sizing: border-box;
+    }
+    #contact{
+    margin-top:1200%;
     margin-left:100%;
-    transform:scale(2.2,2.2);
-}
-
-.fa-external-link{
-    margin-top:50%;
-    box-sizing: border-box;
-}
-#contact{
-margin-top:900%;
-margin-left:100%;
-
-transform:scale(2,2);
-display:flex;
-flex-direction: column;
-}
-.mail{
-margin-top:90%;
-transform: scale(1.5,1.5);
-
-}
-.number12{
+    
+    transform:scale(2,2);
+    display:flex;
+    flex-direction: column;
+    }
+    .mail{
+    margin-top:90%;
     transform: scale(1.5,1.5);
-    margin-left:10%;
-
-}
-.resume{
-    transform: scale(1.5,1.5);
-    margin-top:50%;
-    width:120%;
-}
-.form{
-    width:130%;
+    
+    }
+    .number12{
+        transform: scale(1.5,1.5);
+        margin-left:10%;
+      
+    
+    }
+    .y{
+        margin-bottom:25%;
+    }
+    .resume{
+        transform: scale(1.5,1.5);
+        margin-top:50%;
+        width:120%;
+    }
+    .form{
+        width:159%;
+        margin-left:-23%;
+    }
+    input,textarea{
+        margin:2%;
+        padding:3%;
+    }
+    .response{
+        margin-left:5%;
+        font-size:1.7rem;
+    }
+    .footer{
+        width:180%;
+        margin-top:280%;
+    transform:scale(2,2);
+    margin-left:70%;
+    }
+.submit{
+    width:150%;
     margin-left:-20%;
 }
-input,textarea{
-    margin:2%;
-    padding:3%;
+    .k1 p{
+        font-size: 2rem;
+       margin-left:10% ;
+       margin-top:90%;
+    }
+    .k p{
+        margin-left:-20%;
+        font-size: 2rem;
+    }
+    #aboutme{
+        width:200%;
+    }
+header{
+    margin-left:20%;
 }
-.response{
-    margin-left:5%;
-    font-size:2rem;
+.me{
+    margin-left:15%;
 }
-.footer{
-    width:160%;
-    margin-top:230%;
-transform:scale(2,2);
-margin-left:70%;
-}
-.k1{
-    font-size: 5rem;
-   margin-left:10% ;
-   margin-top:20%;
-}
-
-.fa-bars,.fa-times{
-    display:block;
-    color:white;
-    margin-top:15px;;
-font-size:4rem;
-
-}
-.fa-bars{
-    position:fixed;
-    top:30;
-    right:2;
-}
-
-#aboutme{
-    z-index:60;
-}
-.d{
-    margin-left:0%;
-}
-.ul{
-    width:400px;
-    position:fixed;
-height:1000vh;
-z-index:70;
-top:0px;
-    background-color: rgb(85, 85, 245);
-}
-
-.ul li .fa-times{
-    top:20px;
-    left:0px;
-    font-size:27px;
-    position:relative;
-}
-.fa-bars{
-    position:absolute;
-    top:50px;
-    margin-right:7%;
-    right:15px;
-font-size: 70px;
-margin-bottom:5%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 } 
